@@ -1,0 +1,66 @@
+.body{
+    margin: 0;
+    background: #272b30;
+    color: #c8c8c8;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    min-width: min-content;
+}
+.card__fields{
+    border: 1px solid #dadada;
+    min-height: min-content;
+    display: flex;
+    align-items: center;
+}
+.card__field{
+    display: inline-block;
+    min-width: min-content;
+    width: 250px;
+    height: 100%;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.card__field_value{
+    display: inline-block;
+    min-width: min-content;
+    padding: 5px;
+    color: #ffffff;
+    list-style: none;
+    border-left: 1px solid #dadada;
+}
+.card__field_list{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+.arrows{
+    position: absolute;
+    bottom: 50px;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.arrow{
+    filter: invert(70%);
+}
+.arrow__failed{
+    filter: invert(0);
+}
